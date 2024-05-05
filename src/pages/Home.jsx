@@ -4,6 +4,10 @@ import "../styles/home.css";
 
 import { Container, Row, Col } from "reactstrap";
 import heroImg from "../assets/images/hero-img01.jpg";
+import image1 from "../assets/images/image1.jpg";
+import image2 from "../assets/images/image2.png";
+import image3 from "../assets/images/image4.png";
+import image4 from "../assets/images/image3.jpg";
 import heroImg02 from "../assets/images/hero-img02.jpg";
 import heroVideo from "../assets/images/hero-video.mp4";
 import experienceImg from "../assets/images/experience__img.jpg";
@@ -16,6 +20,7 @@ import Testmonial from "../Component/Testmonial/Testmonial";
 import Newsletter from "../shared/Newsletter";
 import SeniorAdventureSection from "../Component/SeniorAdventureSections/SeniorAdventureSection";
 import help from '../Component/help'
+
 
 
 const Home = () => {
@@ -95,7 +100,7 @@ const Home = () => {
         <Container>
           <Row>
             <Col lg="12">
-              <Subtitle Subtitle={"Tailored Support for Senior Adventurers"} />
+              <Subtitle Subtitle={"Our Specialised Services"} />
             </Col>
             <Col>
               <SeniorAdventureSection />
@@ -104,6 +109,49 @@ const Home = () => {
         </Container>
       </section>
       {/* Tailored support for senior adventurers section end */}
+
+       {/* New section: Why Book With Us */}
+      <section className="bordered-section">
+        <Container>
+          <Row>
+            <Col lg="12">
+              <Subtitle Subtitle={"Why Book With Us"} />
+            </Col>
+          </Row>
+          <Row className="mb-4">
+            <Col lg="6" className="d-flex justify-content-center">
+              <div className="why-book-item">
+                <img src={image1} alt="Image 1" />
+                {/* Optional: Add text or caption */}
+                {/* <p>Reason 1: Lorem ipsum dolor sit amet.</p> */}
+              </div>
+            </Col>
+            <Col lg="6" className="d-flex justify-content-center">
+              <div className="why-book-item">
+                <img src={image2} alt="Image 2" />
+                {/* Optional: Add text or caption */}
+                {/* <p>Reason 2: Consectetur adipiscing elit.</p> */}
+              </div>
+            </Col>
+          </Row>
+          <Row className="mb-4">
+            <Col lg="6" className="d-flex justify-content-center">
+              <div className="why-book-item">
+                <img src={image3} alt="Image 3" />
+                {/* Optional: Add text or caption */}
+                {/* <p>Reason 3: Sed do eiusmod tempor incididunt.</p> */}
+              </div>
+            </Col>
+            <Col lg="6" className="d-flex justify-content-center">
+              <div className="why-book-item">
+                <img src={image4} alt="Image 4" />
+                {/* Optional: Add text or caption */}
+                {/* <p>Reason 4: Ut labore et dolore magna aliqua.</p> */}
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
 
       {/* experience section start */}
       <section className="bordered-section">

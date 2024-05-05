@@ -122,3 +122,7 @@ ul {
   width: 100px; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
 }
+
+.plan-trip-btn rounded{
+  border-radius: 50px;
+}

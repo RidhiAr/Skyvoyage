@@ -80,7 +80,20 @@ const TourDetails = () => {
                         !loading && !error && <Row>
                             <Col lg='8'>
                                 <div className="tour__content">
-                                    <img src={photo} alt="" />
+                                <div className="tour__image-wrapper position-relative">
+                                    {/* Wrap image with anchor tag */}
+                                    <div>
+                                    <a href="https://sanjeev02.pythonanywhere.com/" className="image-link">
+                                        <img src={photo} alt="" />
+                                        {/* Absolute positioned button */}
+                                        <button className='btn primary__btn text-white' >
+                                                    Plan my Trip 
+                                        </button>
+                                    </a>
+                                    </div>
+                                   
+                                </div>
+
                                     <div className="tour__info">
                                         <h2>{title}</h2>
                                         <div className="d-flex align-items-center gap-5">
