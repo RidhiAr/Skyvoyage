@@ -83,7 +83,7 @@ const TourDetails = () => {
                                 <div className="tour__image-wrapper position-relative">
                                     {/* Wrap image with anchor tag */}
                                     <div>
-                                    <a href="https://sanjeev02.pythonanywhere.com/" className="image-link">
+                                    <a href="http://127.0.0.1:5000/" className="image-link">
                                         <img src={photo} alt="" />
                                         {/* Absolute positioned button */}
                                         <button className='btn primary__btn text-white' >
