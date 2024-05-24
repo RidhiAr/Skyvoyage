@@ -35,8 +35,8 @@ const SearchBar = () => {
 
 
 
-    return <Col lg='12'>
-        <div className='search__bar'>
+    // return <Col lg='12'>
+        {/* <div className='search__bar'>
             <Form className='d-flex align-items-center gap-4'>
                 <FormGroup className='d-flex gap-3 form__group form__group-fast'>
                     <span>
@@ -71,10 +71,10 @@ const SearchBar = () => {
                     onClick={searchHandler}>
                     <i class="ri-search-line"></i>
                 </span>
-            </Form>
+            </Form> */}
 
-        </div>
-    </Col>
+        {/* </div> */}
+    {/* </Col> */}
 
 };
 

@@ -1,6 +1,7 @@
 .service__item {
     padding: 1rem;
-    border: 1px solid #81b254;
+    border: 1px solid #ef7d54;
+    ;
     border-radius: 0.5rem;
     height: 200px; /* Adjust this value as needed */
     display: flex;

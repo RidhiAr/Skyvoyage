@@ -4,13 +4,14 @@ import "../styles/home.css";
 
 import { Container, Row, Col } from "reactstrap";
 import heroImg from "../assets/images/hero-img01.jpg";
-import image1 from "../assets/images/image1.jpg";
+import image1 from "../assets/images/image1.png";
 import image2 from "../assets/images/image2.png";
 import image3 from "../assets/images/image4.png";
 import image4 from "../assets/images/image3.jpg";
 import heroImg02 from "../assets/images/hero-img02.jpg";
-import heroVideo from "../assets/images/hero-video.mp4";
-import experienceImg from "../assets/images/experience__img.jpg";
+import Img from "../assets/images/12.png";
+//import heroVideo from "../assets/images/hero-video.mp4";
+import experienceImg from "../assets/images/exp.png";
 import worldImg from "../assets/images/world.png";
 import Subtitle from "./../shared/Subtitle";
 import SearchBar from "../shared/SearchBar";
@@ -32,19 +33,16 @@ const Home = () => {
             <Col lg="6">
               <div className="hero__content">
                 <div className="hero__subtitle d-flex align-items-center">
-                  <Subtitle Subtitle={"Explore, Plan, Wander,  Amble."} />
+                  <Subtitle Subtitle={"Navigate safely with SkyVoyager"} />
                 </div>
                 <h2>
-                  Your Personalized Passport to Perfect Days: <br />
-                  <span className="highlight">Travel Simplified!</span>
+                Your Gateway to the World Above:<br />
+                  <span className="highlight">Navigate!</span>
                 </h2>
                 <p>
-                  Amble is a cutting-edge travel activity planner poised to
-                  revolutionize the way travelers explore new destinations.
-                  Leveraging state-of-the-art generative AI technology, this
-                  tool crafts personalized day itineraries tailored to each
-                  user's unique preferences, interests, and
-                  budgetary constraints.
+                  Skyvoyager ensuring safe and efficient flight navigation is paramount.
+                   With the goal of minimizing human errors and enhancing automated navigation 
+                   mechanisms
                 </p>
               </div>
             </Col>
@@ -54,9 +52,14 @@ const Home = () => {
                 <img src={heroImg} alt="" />
               </div>
             </Col>
-            <Col lg="2">
+            {/* <Col lg="2">
               <div className="hero__img-box hero__video-box mt-4">
                 <video src={heroVideo} alt="" controls />
+              </div>
+            </Col> */}
+             <Col lg="2">
+              <div className="hero__img-box mt-5">
+                <img src={Img} alt="" />
               </div>
             </Col>
             <Col lg="2">
@@ -69,7 +72,7 @@ const Home = () => {
         </Container>
       </section>
       {/* hero section end */}
-      <section className="bordered-section">
+      {/* <section className="bordered-section">
         <Container>
           <Row>
             <Col lg="12">
@@ -80,10 +83,10 @@ const Home = () => {
             <ServiceList />
           </Row>
         </Container>
-      </section>
+      </section> */}
 
       {/* featured tour section start */}
-      <section className="bordered-section">
+      {/* <section className="bordered-section">
         <Container>
           <Row>
             <Col lg="12" className="mb-5">
@@ -92,15 +95,15 @@ const Home = () => {
             </Col>
             <FeaturedTourList />
           </Row>
-        </Container>
-      </section>
+        </Container> */}
+      {/* </section> */}
       {/* featured section end */}
       {/* Tailored support for senior adventurers section start */}
       <section className="bordered-section">
         <Container>
           <Row>
             <Col lg="12">
-              <Subtitle Subtitle={"Our Specialised Services"} />
+              <Subtitle Subtitle={"Our Services"} />
             </Col>
             <Col>
               <SeniorAdventureSection />
@@ -111,7 +114,7 @@ const Home = () => {
       {/* Tailored support for senior adventurers section end */}
 
        {/* New section: Why Book With Us */}
-      <section className="bordered-section">
+      {/* <section className="bordered-section">
         <Container>
           <Row>
             <Col lg="12">
@@ -124,34 +127,34 @@ const Home = () => {
                 <img src={image1} alt="Image 1" />
                 {/* Optional: Add text or caption */}
                 {/* <p>Reason 1: Lorem ipsum dolor sit amet.</p> */}
-              </div>
-            </Col>
-            <Col lg="6" className="d-flex justify-content-center">
+              {/* </div>
+            </Col> */}
+            {/* <Col lg="6" className="d-flex justify-content-center">
               <div className="why-book-item">
                 <img src={image2} alt="Image 2" />
                 {/* Optional: Add text or caption */}
                 {/* <p>Reason 2: Consectetur adipiscing elit.</p> */}
-              </div>
-            </Col>
-          </Row>
-          <Row className="mb-4">
-            <Col lg="6" className="d-flex justify-content-center">
-              <div className="why-book-item">
-                <img src={image3} alt="Image 3" />
+              {/* </div> */}
+          {/* //   </Col> */}
+          {/* // </Row> */} */
+          {/* // <Row className="mb-4">
+          //   <Col lg="6" className="d-flex justify-content-center">
+          //     <div className="why-book-item">
+          //       <img src={image3} alt="Image 3" /> */}
                 {/* Optional: Add text or caption */}
                 {/* <p>Reason 3: Sed do eiusmod tempor incididunt.</p> */}
-              </div>
+              {/* </div>
             </Col>
             <Col lg="6" className="d-flex justify-content-center">
               <div className="why-book-item">
-                <img src={image4} alt="Image 4" />
+                <img src={image4} alt="Image 4" /> */}
                 {/* Optional: Add text or caption */}
                 {/* <p>Reason 4: Ut labore et dolore magna aliqua.</p> */}
-              </div>
+              {/* </div>
             </Col>
           </Row>
         </Container>
-      </section>
+      // </section> */} */
 
       {/* experience section start */}
       <section className="bordered-section">
@@ -161,12 +164,10 @@ const Home = () => {
               <div className="experience__content">
                 <Subtitle Subtitle={"EXPERIENCE"} />
                 <h3>
-                  Let our expertise create a memorable journey designed uniquely
-                  for you.
+                Trust Our Expertise for Safe and Efficient Flight Navigation
                 </h3>
                 <p>
-                  Embark on a journey tailored exclusively for you, meticulously
-                  designed by our expert team to create lasting memories.
+                Stay Updated with the Latest in Flight Navigation Technology
                 </p>
               </div>
 
@@ -214,7 +215,7 @@ const Home = () => {
 
       {/* Floating Help Button */}
       <div style={{ position: "fixed", bottom: "20px", right: "20px", zIndex: "999" }}>
-          <button style={{ padding: "10px 20px", borderRadius: "10%", backgroundColor: "green", color: "white", border: "none", cursor: "pointer" }}>Help</button>
+          <button style={{ padding: "10px 20px", borderRadius: "10%", backgroundColor: "orange", color: "white", border: "none", cursor: "pointer" }}>Help</button>
         <Link></Link>
        
       </div>

@@ -39,7 +39,8 @@
 .services__subtitle{
     font-size: 3.0rem;
     font-weight: 500;
-    color: black;
+    color:   #ef7d54;
+    ;
     font-family: var(--subtitle-font-name);
 }
 

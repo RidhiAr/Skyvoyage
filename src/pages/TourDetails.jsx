@@ -87,7 +87,7 @@ const TourDetails = () => {
                                         <img src={photo} alt="" />
                                         {/* Absolute positioned button */}
                                         <button className='btn primary__btn text-white' >
-                                                    Plan my Trip 
+                                                    Plan
                                         </button>
                                     </a>
                                     </div>
@@ -188,7 +188,7 @@ const TourDetails = () => {
                                 </div>
                             </Col>
                             <Col lg='4'>
-                                <Booking tour={tour} avgRating={avgRating} />
+                                <Booking flight={tour} avgRating={avgRating} />
                             </Col>
                         </Row>
                     }

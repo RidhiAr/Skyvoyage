@@ -39,12 +39,12 @@ const Testmonial = () => {
     return <Slider {...settings}>
         <div className="testimonial py-4 px-3">
             <p>
-            Amble, the ultimate travel planner, has transformed my trip planning experience! With a plethora of destinations and activities to choose from, there's something for every traveler. Their intuitive website and detailed travel guides make itinerary creation a joy. Highly recommended!
+            "The noise and electronic failure mitigation system is a game-changer for flight operations. Reducing disruptions will definitely enhance overall safety and efficiency. Great work!"
             </p>
             <div className='d-flex align-items-center gap-4 mt-3'>
                 <img src={ava01} className='w-25 h-25 rounded-2' alt="" />
                 <div>
-                    <h6 className='mb-0 mt-3'> Hitaishi Goel</h6>
+                    <h6 className='mb-0 mt-3'> Ridhi Arora</h6>
                     <p>customer</p>
                 </div>
             </div>
@@ -52,7 +52,7 @@ const Testmonial = () => {
 
         <div className="testimonial py-4 px-3">
             <p>
-            Thanks to Amble, planning my travels has become a breeze! From exotic getaways to cultural adventures, they have it all. Their user-friendly platform and comprehensive destination details make trip planning a delightful experience. I'm hooked!
+            "The integration of advanced technologies in these services shows a forward-thinking approach. It's reassuring to see such dedication to improving flight safety and efficiency."
             </p>
             <div className='d-flex align-items-center gap-4 mt-3'>
                 <img src={ava02} className='w-25 h-10 rounded-2' alt="" />
@@ -64,7 +64,7 @@ const Testmonial = () => {
         </div>
         <div className="testimonial py-4 px-3">
             <p>
-            Kudos to Amble for making event discovery a breeze! Whether it's festivals or workshops, their platform has it all. The website's simplicity and detailed event descriptions make planning my weekends stress-free. I'm a fan!
+            "Impressive work on all fronts! These advancements are exactly what the aviation industry needs to stay ahead in safety and technology."
             </p>
             <div className='d-flex align-items-center gap-4 mt-3'>
                 <img src={ava04} className='w-25 h-25 rounded-2' alt="" />
@@ -77,24 +77,24 @@ const Testmonial = () => {
 
         <div className="testimonial py-4 px-3">
             <p>
-            Amble is my go-to for seamless travel planning! Whether it's exploring hidden gems or indulging in popular attractions, they've got me covered. The website's ease of use and abundance of travel information ensure I craft unforgettable itineraries every time. 10/10 recommend!
+            "I appreciate the comprehensive approach to tackling multiple aspects of flight safety and efficiency. Each feature complements the others well. Kudos to the team!"
             </p>
             <div className='d-flex align-items-center gap-4 mt-3'>
                 <img src={ava03} className='w-25 h-25 rounded-2' alt="" />
                 <div>
-                    <h6 className='mb-0 mt-3'>Akrati Pandey </h6>
+                    <h6 className='mb-0 mt-3'>Ishita</h6>
                     <p>customer</p>
                 </div>
             </div>
         </div>
         <div className="testimonial py-4 px-3">
             <p>
-            With Amble, travel exploration has never been more enjoyable! From breathtaking destinations to unique experiences, they offer a world of possibilities. Their platform's simplicity and detailed destination guides make planning my trips stress-free. Thumbs up!
+            "It's great to see innovative solutions to common aviation challenges. These services will undoubtedly make flights safer and more reliable."
             </p>
             <div className='d-flex align-items-center gap-4 mt-3'>
                 <img src={ava06} className='w-25 h-35 rounded-2' alt="" />
                 <div>
-                    <h6 className='mb-0 mt-3'>Abhishek Kumar </h6>
+                    <h6 className='mb-0 mt-3'>Archit</h6>
                     <p>customer</p>
                 </div>
             </div>

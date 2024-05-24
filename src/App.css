@@ -3,7 +3,7 @@
 
 :root {
   --primary-color: #18434d;
-  --secondary-color: #81b254;
+  --secondary-color: #ef7d54;
   --heading-color: #002c3e;
   --text-color: #6e7074;
   --font-name: "Montserrat", sans-serif;
@@ -86,7 +86,7 @@ ul {
   /* border-radius: 20px; */
   font-weight: 400;
   font-size: 2.8rem;
-  color: rgb(86, 141, 4);
+  color: #ef7d54;
 }
 
 @media only screen and (max-width:992px){
@@ -108,7 +108,7 @@ ul {
 }
 
 .bordered-section {
-  border: 0.5px solid greenyellow; /* Set the border style */
+  border: 0.5px solid #ef7d54; /* Set the border style */
   border-radius: 10px; /* Optional: Add border radius for rounded corners */
   padding: 20px; /* Optional: Add padding for spacing */
   margin-bottom: 30px; /* Optional: Add margin bottom for spacing between sections */

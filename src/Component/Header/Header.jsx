@@ -16,13 +16,13 @@ const nav_links = [
         path: '/about',
         display: 'About'
     },
-    {
-        path: '/tours',
-        display: 'Tours'
-    },
+    // {
+    //     path: '/tours',
+    //     display: 'Solutions'
+    // },
     {
         path: '/rewards',
-        display: 'Rewards'
+        display: 'Contact Us'
     },
 ]
 

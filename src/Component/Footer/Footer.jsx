@@ -14,8 +14,8 @@ const quick__links = [
         display: "About",
     },
     {
-        path: "/tours",
-        display: "Tours",
+        path: "/contact",
+        display: "Contact",
     },
 ];
 const quick__links2 = [
@@ -43,8 +43,8 @@ const Footer = () => {
                         <div className="logo">
                             <img src={logo} alt="" />
                             <br></br>
-                            <strong>Unlock Unforgettable Adventures:</strong><br />
-                            <strong>Your Tailored Travel Itinerary Awaits!</strong>
+                            <strong>SkyVoyager</strong><br />
+                            <strong>Your Gateway to the World Above!</strong>
                             <div className='social_links d-flex align-items-center gap-4'>
                                 <span>
                                     <Link to='#'> <i class='ri-youtube-line'></i></Link>
@@ -116,9 +116,7 @@ const Footer = () => {
                             </ListGroupItem>
                         </ListGroup>
                     </Col>
-                    <Col lg='12' className='text-center pt-5'>
-                        <p className='copyright'>Copyright {year},design and develop by Prakash. All rights reserved</p>
-                    </Col>
+                    
                 </Row>
             </Container>
         </footer>

@@ -20,7 +20,8 @@
     font-size: 1.1rem;
 }
 .nav__item a.active__link{
-    color: #81b254;
+    color:   #ef7d54;
+    ;
 }
 
 .mobile__menu{

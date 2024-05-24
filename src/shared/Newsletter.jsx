@@ -17,9 +17,11 @@ const Newsletter = () => {
                                 <button className="btn newsletter__btn">Subscribe</button>
                             </div>
                             <p>
-                            Stay updated on upcoming events, exclusive offers, and more.
-Follow us on social media for behind-the-scenes sneak peeks and event highlights.
-For any inquiries or assistance, feel free to reach out to our friendly support team. 
+                            At SkyVoyager, we offer a suite of advanced services designed 
+                            to enhance the safety, efficiency, and reliability of flight navigation. 
+                            Our cutting-edge technology and expert insights cater to the diverse needs 
+                            of pilots, airlines, and airport authorities,
+                             ensuring optimal performance and risk mitigation in the aviation industry. 
                             </p>
                         </div>
                     </Col>
